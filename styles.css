@@ -9,6 +9,7 @@ body {
 .navbar-nav .nav-link {
     color: white; 
     transition: color 0.3s ease; 
+    font-family: garet ;
 }
 
 .navbar-nav .nav-link:hover {
@@ -19,8 +20,19 @@ body {
 
 .navbar-brand {
     color: white;
+    font-family: AngelinaFont;
 }
 
 .navbar-brand:hover{
     color: white;
+}
+
+@font-face {
+    font-family: "AngelinaFont";
+    src: url(Angelina-rnlA.otf) format('opentype');
+}
+
+@font-face {
+    font-family: "garet";
+    src: url(Garet-Book.ttf) format('truetype');
 }
