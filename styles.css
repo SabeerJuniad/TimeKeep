@@ -5,3 +5,14 @@ body {
     background-blend-mode: multiply;
     background-repeat: no-repeat;
 }
+
+.navbar-nav .nav-link {
+    color: white; 
+    transition: color 0.3s ease; 
+}
+
+.navbar-nav .nav-link:hover {
+    color: black;
+    background-color: rgb(255, 255, 255); 
+    border-radius: 10px;
+}
