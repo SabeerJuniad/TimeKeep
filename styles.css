@@ -1,0 +1,7 @@
+body {
+    background-image: url(earthbg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+}
